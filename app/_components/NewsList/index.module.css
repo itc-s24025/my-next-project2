@@ -4,25 +4,26 @@
 .list:last-child {
   border-bottom: none;
 }
+
 .link {
   display: flex;
   align-items: flex-start;
   gap: 40px;
   padding: 24px 0;
 }
+
 .image {
   width: 200px;
   height: auto;
   border-radius: var(--border-radius);
 }
-.newsItemTitle {
+
+.title {
   font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
-.content {
-  flex: 1;
-}
+
 .meta {
   display: flex;
   align-items: center;
@@ -37,11 +38,13 @@
   .image {
     display: none;
   }
+
   .title {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.4rem;
   }
+
   .meta {
     display: flex;
     align-items: center;

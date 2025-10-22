@@ -33,6 +33,7 @@
   justify-content: center;
   z-index: -1;
 }
+
 .news {
   position: relative;
   background-color: #fff;
@@ -41,21 +42,17 @@
   padding: 24px 40px;
   border-radius: var(--border-radius);
 }
+
 .newsTitle {
   font-size: 1.5rem;
 }
+
 .newsLink {
   position: absolute;
   right: -40px;
   bottom: -40px;
 }
-@media (max-width: 1000px) {
-  .news {
-    width: calc(100% - 160px);
-  }
-}
-/* 画面の最大幅が640ピクセル以下
-  (スマホや小さなタブレット)のときに適用するCSS */
+
 @media (max-width: 640px) {
   .top {
     padding: 120px 16px;
@@ -83,10 +80,12 @@
     justify-content: center;
     z-index: -1;
   }
+
   .news {
     width: calc(100% - 32px);
     padding: 16px 24px;
   }
+
   .newsLink {
     position: relative;
     right: auto;
