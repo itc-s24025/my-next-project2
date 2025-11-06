@@ -6,7 +6,7 @@ import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https:/localhost:3000"),
+  metadataBase: new URL("https://my-next-project2-bice.vercel.app/"),
   title: {
     template: "%s | シンプルなコーポレートサイト",
     default: "シンプルなコーポレートサイト",
